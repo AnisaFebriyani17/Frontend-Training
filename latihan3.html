@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hello Anisa | Web Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+<div class="logo">Hello Anisa</div>
+
+<!-- HAMBURGER -->
+<div class="menu-toggle">☰</div>
+
+<ul class="nav-links">
+
+<li class="dropdown">
+
+<a href="#">Tentang Saya ▾</a>
+
+<ul class="dropdown-menu">
+
+<li><a href="about.html">Profil</a></li>
+<li><a href="journey.html">Pengalaman Kerja</a></li>
+<li><a href="goals.html">Tujuan</a></li>
+<li><a href="hobby.html">Hobi</a></li>
+
+</ul>
+
+</li>
+
+<li>
+<a href="#tech">Tech Stack</a>
+</li>
+
+<li>
+<a href="#social">LinkedIn</a>
+</li>
+
+<li>
+<a href="#footer">Kontak</a>
+</li>
+
+</ul>
+
+</nav>
+
+
+<!-- HEADER -->
+<header id="about" class="fade-in">
+
+<h1>Selamat Datang di Website Hello Anisa</h1>
+
+<p>Yuk Eksplor Lebih Lanjut!</p>
+
+</header>
+
+
+
+<!-- ABOUT -->
+<section class="about fade-in">
+
+<img src="img/foto.png" alt="Foto Anisa" class="profile-img">
+
+<h2>Tentang Saya</h2>
+
+<p>
+Halo! Nama saya <strong>Anisa Febriyani</strong>, seorang pemula yang
+masih terus belajar mengenai <strong>Web Development</strong>.
+</p>
+
+<p>
+Saat ini saya fokus mempelajari <b>Frontend Development</b>
+dan mencoba membuat berbagai website sederhana.
+</p>
+
+<p>
+Saya percaya <em>error bukan akhir dari segalanya</em>,
+melainkan tanda bahwa kita sedang belajar.
+</p>
+
+<p>
+Target saya adalah membuat website yang
+<mark>bukan hanya berjalan tetapi juga terlihat menarik</mark>.
+</p>
+
+</section>
+
+
+
+<!-- TECH STACK -->
+<section class="tech fade-in" id="tech">
+
+<h2>Tech Stack</h2>
+
+<div class="tech-container">
+
+<div class="tech-card html">
+<img src="img/html.svg" alt="HTML">
+<p>HTML</p>
+</div>
+
+<div class="tech-card css">
+<img src="img/css.svg" alt="CSS">
+<p>CSS</p>
+</div>
+
+<div class="tech-card php">
+<img src="img/php.svg" alt="PHP">
+<p>PHP</p>
+</div>
+
+<div class="tech-card js">
+<img src="img/javascript.svg" alt="JavaScript">
+<p>JavaScript</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- LINKEDIN -->
+<section class="social fade-in" id="social">
+
+<h2>Media Sosial</h2>
+
+<p style="text-align:center">
+
+Kunjungi LinkedIn saya
+
+<br><br>
+
+<a href="https://www.linkedin.com/in/anisa-febriyani17/"
+target="_blank"
+class="btn-linkedin">
+
+Klik Di Sini Untuk Melihat Profile Lebih Lanjut
+
+</a>
+
+</p>
+
+</section>
+
+
+
+<!-- FOOTER -->
+<footer id="footer">
+
+<p>© 2026 Anisa Febriyani | Web Developer</p>
+
+</footer>
+
+
+
+<!-- JAVASCRIPT MENU -->
+<script>
+
+const toggle = document.querySelector(".menu-toggle")
+const navLinks = document.querySelector(".nav-links")
+
+toggle.onclick = () => {
+
+navLinks.classList.toggle("active")
+
+}
+
+</script>
+
+</body>
+</html>
